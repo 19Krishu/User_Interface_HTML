@@ -1,0 +1,23 @@
+
+<html>
+    <head>
+    <script type="text/javascript">
+    
+        var house = ["1BHK", 25000, "2BHK", 50000, "Rent", true];
+        // len contains the length of the array
+        var len = house.length;
+        for (var i = 0; i < len; i++)
+        {
+            document.write(house[i]+"<br>");//Output 1BHK
+        }
+        document.write("<hr>");
+        house.forEach(function(element){
+            document.write(element);
+            document.write("<br>");
+        });
+    </script>
+    </head>
+    <body>
+    
+    </body>
+    </html>

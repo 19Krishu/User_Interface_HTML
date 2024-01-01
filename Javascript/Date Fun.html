@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Date function</title>
+    </head>
+    <body>
+    <script type="text/javascript">
+    var today=new Date();
+    document.write(today+"<br>");
+
+    document.write("Year = "+today.getYear()+"<br>");
+
+    document.write("getFullYear = "+today.getFullYear()+"<br>");
+
+    document.write("getMonth = "+today.getMonth()+"<br>");
+
+    document.write("getDate = "+today.getDate()+"<br>");
+
+    document.write("getDay = "+today.getDay()+"<br>");
+    
+    document.write("getHours = "+today.getHours()+"<br>");
+    //  set method
+    document.write("Before set Year =  "+today+"<br>");
+    today.setFullYear(2021);
+    document.write("after set Year =  "+today);
+</script>
+    <p>Date function and then try...</p>
+</body>
+</html>

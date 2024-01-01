@@ -1,0 +1,20 @@
+
+<html>
+    <head>   
+    <title>User-defined objects</title>
+       <script type = "text/javascript">
+          function book(title, price) {
+             this.title = title; 
+             this.price  = price;
+          }
+       </script>      
+    </head>
+    
+    <body>   
+       <script type = "text/javascript">
+          var myBook = new book("JAVASCRIPT", 300);
+          document.write("Book title is : " + myBook.title + "<br>");
+          document.write("Book price is : " + myBook.price + "<br>");
+       </script>      
+    </body>
+ </html>

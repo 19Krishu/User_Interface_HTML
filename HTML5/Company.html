@@ -1,0 +1,67 @@
+<html>
+    <header>
+        <title>VK pvt limited</title>
+    
+    <h1>VK Company pvt limited</h1>
+    <nav>
+        <li><a href="/home">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/contact">Contact us</a></li>
+    </nav>
+    <form target="/search">
+        <input name="q" type="search"/>
+        <input type="submit"/>
+    </form>
+</header>
+    <body>
+        <form>
+            <figure>
+                <img src="C:\Users\KRISHU\Pictures\Saved Pictures\IMG_0888 (2).jpg" height="200px" width="200px" alt="US">
+                <figcaption>My Special one's.</figcaption>
+            </figure>
+            <label for="Username">Username : </label>
+            <input type="text" name="Username" id="Username"/>
+<br><br>
+            <label for="Password">Password : </label>
+            <input type="password" name="password" id="password"/>
+<br><br>
+            <input type="radio" name="gender" value="male"/>Male
+            <input type="radio" name="gender" value="female"/>Female
+            <input type="radio" name="gender" value="other"/>Other
+<br><br>
+            <input list="options"/>
+            <datalist id="options">
+                <option value="Option1"></option>
+                <option value="Option2"></option>
+                <option value="Option3"></option>
+            </datalist>
+
+            <input type="submit" value="submit"/>
+            <input type="color"/>
+            <input type="checkbox" name="correct" value="correct"/>Correct
+        </form>
+    </body>
+
+    <audio src="C:\Users\KRISHU\Music\Hardik.opus" controls loop autoplay></audio>
+    <br>
+    <br>
+    <video autoplay>
+        <source src="C:\Users\KRISHU\Pictures\Saved Pictures\VID-20220927-WA0029.mp4" type="video/mp4"/>
+        <br>
+        <script>
+            localStorage.setItem("name" , "krishu");
+
+            var fname = localStorage.getItem("name");
+            document.write("<br>"+fname);
+
+            sessionStorage.setItem("surname" , "patel")
+
+            var sname = localStorage.getItem("surname");
+            document.write("<br>"+sname);
+        </script>
+        <footer>
+            Krishu Patel <br>
+            Department of Animation , IT-IMS and Mobile Intergration
+        </footer>
+    </video>
+</html>
